@@ -1,4 +1,4 @@
-body {width: 100%; height: 100%;}
+.webgl-contentbody {width: 100%; height: 100%;}
 .webgl-content * {border: 0; margin: 0; padding: 0}
 .webgl-content {position: absolute; top: 0; left: 0; width: 100%; height: 100%}
 
