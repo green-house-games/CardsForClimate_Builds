@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/DevBuilds.json", {
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/WebGL.json", {
           compatibilityCheck: function (unityInstance, onsuccess, onerror) {
           if (!UnityLoader.SystemInfo.hasWebGL) {
             unityInstance.popup("Your browser does not support WebGL",
